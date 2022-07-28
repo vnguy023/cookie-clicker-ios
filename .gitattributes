@@ -1,0 +1,5 @@
+# All files are checked into repo with LF line ending
+* text=auto
+
+# These files are checkedout using CRLF Local files
+*.bat eol=crlf
