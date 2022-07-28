@@ -1,5 +1,7 @@
 import Foundation
 
 enum ViewType {
-    case ChildView1, ChildView2
+    case SplashView
+    case MenuView
+    case GameView
 }

@@ -3,29 +3,32 @@ import SwiftUI
 struct ContentView: View {
     @EnvironmentObject private var dataModel: DataModel
     
-    var childView1: ChildOneView {
-        return ChildOneView()
+    var splashView: SplashView {
+        return SplashView()
     }
-    var childView2: ChildTwoView {
-        return ChildTwoView()
+    var menuView: MenuView {
+        return MenuView()
+    }
+    var gameView: GameView {
+        return GameView()
     }
     
     var body: some View {
-        VStack{
+        VStack {
             switch(dataModel.stateView) {
-                case .ChildView1:
-                    childView1
-                    .transition(.slide)
-                case .ChildView2:
-                    childView2
-                    .transition(.slide)
+                case .SplashView:
+                    splashView
+                case .MenuView:
+                    menuView
+                case .GameView:
+                    gameView
             }
         }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
-    @State var stateView = ViewType.ChildView1
+    @State var stateView = ViewType.SplashView
     
     static var previews: some View {
         ContentView()

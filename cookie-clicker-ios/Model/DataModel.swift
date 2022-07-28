@@ -1,7 +1,7 @@
 import Foundation
 
 class DataModel: ObservableObject {
-    @Published public var stateView = ViewType.ChildView1
+    @Published public var stateView = ViewType.SplashView
     @Published public var sceneChangeCount: Int = 0
     
     init() {

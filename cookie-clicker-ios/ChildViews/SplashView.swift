@@ -1,57 +1,50 @@
 import SwiftUI
 
-struct ChildTwoView: View {
+struct SplashView: View {
     @EnvironmentObject var dataModel: DataModel
     
-    let viewName = String(describing: ChildTwoView.self)
+    let viewName = String(describing: SplashView.self)
     
     var body: some View {
         ZStack {
-            LinearGradient(colors: [Color.orange, Color.teal], startPoint: .top, endPoint: .bottom)
+            LinearGradient(colors: [Color.purple, Color.orange], startPoint: .top, endPoint: .bottom)
                 .ignoresSafeArea()
             
             VStack{
-                Text("Scene changed \(dataModel.sceneChangeCount) times")
-                    .padding()
-                
-                Spacer()
-                
                 Text("Scene: \(viewName)")
                     .padding()
                 
+                Spacer()
+        
                 Button() {
                     // Action
                     dataModel.incrementSceneChanges(amount: 1)
                     
                     withAnimation {
-                        dataModel.stateView = ViewType.ChildView1
+                        dataModel.stateView = ViewType.MenuView
                     }
                 } label: {
-                    Text("Go to Root View")
+                    Text("Go to next View")
                         .font(.largeTitle)
                         .foregroundColor(.white)
                         .padding()
                         .background(Color.gray)
                         .cornerRadius(20.0)
                 }
-                
-                Spacer()
             }
-        }
+        }.transition(.slide)
     }
 }
 
-struct ChildTwoView_PreviewContainer: View {
-    @State private var stateView = ViewType.ChildView2
-    
+struct SplashView_PreviewContainer: View {
     var body: some View {
-        return ChildTwoView()
+        return SplashView()
             .environmentObject(DataModel())
     }
 }
 
-struct ChildTwoView_Previews: PreviewProvider {
+struct SplashView_Previews: PreviewProvider {
     static var previews: some View {
-        ChildTwoView_PreviewContainer()
+        SplashView_PreviewContainer()
     }
 }

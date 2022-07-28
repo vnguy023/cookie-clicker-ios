@@ -1,9 +1,9 @@
 import SwiftUI
 
-struct ChildOneView: View {
+struct MenuView: View {
     @EnvironmentObject var dataModel: DataModel
     
-    let viewName = String(describing: ChildOneView.self)
+    let viewName = String(describing: MenuView.self)
     
     var body: some View {
         ZStack {
@@ -11,45 +11,40 @@ struct ChildOneView: View {
                 .ignoresSafeArea()
             
             VStack{
-                Text("Scene changed \(dataModel.sceneChangeCount) times")
+                Text("Scene: \(viewName)")
                     .padding()
                 
                 Spacer()
-                
-                Text("Scene: \(viewName)")
-                    .padding()
                 
                 Button() {
                     // Action
                     dataModel.incrementSceneChanges(amount: 1)
                     
                     withAnimation {
-                        dataModel.stateView = ViewType.ChildView2
+                        dataModel.stateView = ViewType.GameView
                     }
                 } label: {
-                    Text("Go to Root View")
+                    Text("Go to next View")
                         .font(.largeTitle)
                         .foregroundColor(.white)
                         .padding()
                         .background(Color.gray)
                         .cornerRadius(20.0)
                 }
-                
-                Spacer()
             }
-        }
+        }.transition(.slide)
     }
 }
 
-struct ChildOneView_PreviewContainer: View {
+struct MenuView_PreviewContainer: View {
     var body: some View {
-        return ChildOneView()
+        return MenuView()
             .environmentObject(DataModel())
     }
 }
 
-struct ChildOneView_Previews: PreviewProvider {
+struct MenuView_Previews: PreviewProvider {
     static var previews: some View {
-        ChildOneView_PreviewContainer()
+        MenuView_PreviewContainer()
     }
 }
