@@ -7,7 +7,7 @@
 
 import XCTest
 
-class my_base_gameUITestsLaunchTests: XCTestCase {
+class cookie_clicker_iosUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

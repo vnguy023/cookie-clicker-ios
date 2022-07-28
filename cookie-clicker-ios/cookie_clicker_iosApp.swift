@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct my_base_gameApp: App {
+struct cookie_clicker_iosApp: App {
     @State private var dataModel = DataModel()
     
     var body: some Scene {

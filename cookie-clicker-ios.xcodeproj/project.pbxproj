@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6CFC2ED52890D98F002A4A6A /* my_base_gameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFC2ED42890D98F002A4A6A /* my_base_gameApp.swift */; };
+		6CFC2ED52890D98F002A4A6A /* cookie_clicker_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFC2ED42890D98F002A4A6A /* cookie_clicker_iosApp.swift */; };
 		6CFC2ED72890D98F002A4A6A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFC2ED62890D98F002A4A6A /* ContentView.swift */; };
 		6CFC2ED92890D991002A4A6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CFC2ED82890D991002A4A6A /* Assets.xcassets */; };
 		6CFC2EDC2890D991002A4A6A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CFC2EDB2890D991002A4A6A /* Preview Assets.xcassets */; };
-		6CFC2EE62890D991002A4A6A /* my_base_gameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFC2EE52890D991002A4A6A /* my_base_gameTests.swift */; };
-		6CFC2EF02890D992002A4A6A /* my_base_gameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFC2EEF2890D992002A4A6A /* my_base_gameUITests.swift */; };
-		6CFC2EF22890D992002A4A6A /* my_base_gameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFC2EF12890D992002A4A6A /* my_base_gameUITestsLaunchTests.swift */; };
+		6CFC2EE62890D991002A4A6A /* cookie-clicker-iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFC2EE52890D991002A4A6A /* cookie-clicker-iosTests.swift */; };
+		6CFC2EF02890D992002A4A6A /* cookie_clicker_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFC2EEF2890D992002A4A6A /* cookie_clicker_iosUITests.swift */; };
+		6CFC2EF22890D992002A4A6A /* cookie_clicker_iosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFC2EF12890D992002A4A6A /* cookie_clicker_iosUITestsLaunchTests.swift */; };
 		6CFC2EFF2890DC4C002A4A6A /* ChildOneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFC2EFE2890DC4C002A4A6A /* ChildOneView.swift */; };
 		6CFC2F012890EA95002A4A6A /* ChildTwoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFC2F002890EA95002A4A6A /* ChildTwoView.swift */; };
 		6CFC2F0328914040002A4A6A /* ViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CFC2F0228914040002A4A6A /* ViewType.swift */; };
@@ -38,16 +38,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6CFC2ED12890D98F002A4A6A /* my-base-game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "my-base-game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6CFC2ED42890D98F002A4A6A /* my_base_gameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = my_base_gameApp.swift; sourceTree = "<group>"; };
+		6CFC2ED12890D98F002A4A6A /* cookie-clicker-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cookie-clicker-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CFC2ED42890D98F002A4A6A /* cookie_clicker_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cookie_clicker_iosApp.swift; sourceTree = "<group>"; };
 		6CFC2ED62890D98F002A4A6A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6CFC2ED82890D991002A4A6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6CFC2EDB2890D991002A4A6A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		6CFC2EE12890D991002A4A6A /* my-base-gameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "my-base-gameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6CFC2EE52890D991002A4A6A /* my_base_gameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = my_base_gameTests.swift; sourceTree = "<group>"; };
-		6CFC2EEB2890D992002A4A6A /* my-base-gameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "my-base-gameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6CFC2EEF2890D992002A4A6A /* my_base_gameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = my_base_gameUITests.swift; sourceTree = "<group>"; };
-		6CFC2EF12890D992002A4A6A /* my_base_gameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = my_base_gameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6CFC2EE12890D991002A4A6A /* cookie-clicker-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cookie-clicker-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CFC2EE52890D991002A4A6A /* cookie-clicker-iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "cookie-clicker-iosTests.swift"; sourceTree = "<group>"; };
+		6CFC2EEB2890D992002A4A6A /* cookie-clicker-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "cookie-clicker-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CFC2EEF2890D992002A4A6A /* cookie_clicker_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cookie_clicker_iosUITests.swift; sourceTree = "<group>"; };
+		6CFC2EF12890D992002A4A6A /* cookie_clicker_iosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cookie_clicker_iosUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		6CFC2EFE2890DC4C002A4A6A /* ChildOneView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildOneView.swift; sourceTree = "<group>"; };
 		6CFC2F002890EA95002A4A6A /* ChildTwoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildTwoView.swift; sourceTree = "<group>"; };
 		6CFC2F0228914040002A4A6A /* ViewType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewType.swift; sourceTree = "<group>"; };
@@ -82,9 +82,9 @@
 		6CFC2EC82890D98F002A4A6A = {
 			isa = PBXGroup;
 			children = (
-				6CFC2ED32890D98F002A4A6A /* my-base-game */,
-				6CFC2EE42890D991002A4A6A /* my-base-gameTests */,
-				6CFC2EEE2890D992002A4A6A /* my-base-gameUITests */,
+				6CFC2ED32890D98F002A4A6A /* cookie-clicker-ios */,
+				6CFC2EE42890D991002A4A6A /* cookie-clicker-iosTests */,
+				6CFC2EEE2890D992002A4A6A /* cookie-clicker-iosUITests */,
 				6CFC2ED22890D98F002A4A6A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,17 +92,17 @@
 		6CFC2ED22890D98F002A4A6A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6CFC2ED12890D98F002A4A6A /* my-base-game.app */,
-				6CFC2EE12890D991002A4A6A /* my-base-gameTests.xctest */,
-				6CFC2EEB2890D992002A4A6A /* my-base-gameUITests.xctest */,
+				6CFC2ED12890D98F002A4A6A /* cookie-clicker-ios.app */,
+				6CFC2EE12890D991002A4A6A /* cookie-clicker-iosTests.xctest */,
+				6CFC2EEB2890D992002A4A6A /* cookie-clicker-iosUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6CFC2ED32890D98F002A4A6A /* my-base-game */ = {
+		6CFC2ED32890D98F002A4A6A /* cookie-clicker-ios */ = {
 			isa = PBXGroup;
 			children = (
-				6CFC2ED42890D98F002A4A6A /* my_base_gameApp.swift */,
+				6CFC2ED42890D98F002A4A6A /* cookie_clicker_iosApp.swift */,
 				6CFC2ED62890D98F002A4A6A /* ContentView.swift */,
 				6CFC2F0228914040002A4A6A /* ViewType.swift */,
 				6CFC2F0928914699002A4A6A /* Model */,
@@ -110,7 +110,7 @@
 				6CFC2ED82890D991002A4A6A /* Assets.xcassets */,
 				6CFC2EDA2890D991002A4A6A /* Preview Content */,
 			);
-			path = "my-base-game";
+			path = "cookie-clicker-ios";
 			sourceTree = "<group>";
 		};
 		6CFC2EDA2890D991002A4A6A /* Preview Content */ = {
@@ -121,21 +121,21 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		6CFC2EE42890D991002A4A6A /* my-base-gameTests */ = {
+		6CFC2EE42890D991002A4A6A /* cookie-clicker-iosTests */ = {
 			isa = PBXGroup;
 			children = (
-				6CFC2EE52890D991002A4A6A /* my_base_gameTests.swift */,
+				6CFC2EE52890D991002A4A6A /* cookie-clicker-iosTests.swift */,
 			);
-			path = "my-base-gameTests";
+			path = "cookie-clicker-iosTests";
 			sourceTree = "<group>";
 		};
-		6CFC2EEE2890D992002A4A6A /* my-base-gameUITests */ = {
+		6CFC2EEE2890D992002A4A6A /* cookie-clicker-iosUITests */ = {
 			isa = PBXGroup;
 			children = (
-				6CFC2EEF2890D992002A4A6A /* my_base_gameUITests.swift */,
-				6CFC2EF12890D992002A4A6A /* my_base_gameUITestsLaunchTests.swift */,
+				6CFC2EEF2890D992002A4A6A /* cookie_clicker_iosUITests.swift */,
+				6CFC2EF12890D992002A4A6A /* cookie_clicker_iosUITestsLaunchTests.swift */,
 			);
-			path = "my-base-gameUITests";
+			path = "cookie-clicker-iosUITests";
 			sourceTree = "<group>";
 		};
 		6CFC2F06289143B0002A4A6A /* ChildViews */ = {
@@ -158,9 +158,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6CFC2ED02890D98F002A4A6A /* my-base-game */ = {
+		6CFC2ED02890D98F002A4A6A /* cookie-clicker-ios */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6CFC2EF52890D992002A4A6A /* Build configuration list for PBXNativeTarget "my-base-game" */;
+			buildConfigurationList = 6CFC2EF52890D992002A4A6A /* Build configuration list for PBXNativeTarget "cookie-clicker-ios" */;
 			buildPhases = (
 				6CFC2ECD2890D98F002A4A6A /* Sources */,
 				6CFC2ECE2890D98F002A4A6A /* Frameworks */,
@@ -170,14 +170,14 @@
 			);
 			dependencies = (
 			);
-			name = "my-base-game";
+			name = "cookie-clicker-ios";
 			productName = "my-base-game";
-			productReference = 6CFC2ED12890D98F002A4A6A /* my-base-game.app */;
+			productReference = 6CFC2ED12890D98F002A4A6A /* cookie-clicker-ios.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6CFC2EE02890D991002A4A6A /* my-base-gameTests */ = {
+		6CFC2EE02890D991002A4A6A /* cookie-clicker-iosTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6CFC2EF82890D992002A4A6A /* Build configuration list for PBXNativeTarget "my-base-gameTests" */;
+			buildConfigurationList = 6CFC2EF82890D992002A4A6A /* Build configuration list for PBXNativeTarget "cookie-clicker-iosTests" */;
 			buildPhases = (
 				6CFC2EDD2890D991002A4A6A /* Sources */,
 				6CFC2EDE2890D991002A4A6A /* Frameworks */,
@@ -188,14 +188,14 @@
 			dependencies = (
 				6CFC2EE32890D991002A4A6A /* PBXTargetDependency */,
 			);
-			name = "my-base-gameTests";
+			name = "cookie-clicker-iosTests";
 			productName = "my-base-gameTests";
-			productReference = 6CFC2EE12890D991002A4A6A /* my-base-gameTests.xctest */;
+			productReference = 6CFC2EE12890D991002A4A6A /* cookie-clicker-iosTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		6CFC2EEA2890D992002A4A6A /* my-base-gameUITests */ = {
+		6CFC2EEA2890D992002A4A6A /* cookie-clicker-iosUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6CFC2EFB2890D992002A4A6A /* Build configuration list for PBXNativeTarget "my-base-gameUITests" */;
+			buildConfigurationList = 6CFC2EFB2890D992002A4A6A /* Build configuration list for PBXNativeTarget "cookie-clicker-iosUITests" */;
 			buildPhases = (
 				6CFC2EE72890D992002A4A6A /* Sources */,
 				6CFC2EE82890D992002A4A6A /* Frameworks */,
@@ -206,9 +206,9 @@
 			dependencies = (
 				6CFC2EED2890D992002A4A6A /* PBXTargetDependency */,
 			);
-			name = "my-base-gameUITests";
+			name = "cookie-clicker-iosUITests";
 			productName = "my-base-gameUITests";
-			productReference = 6CFC2EEB2890D992002A4A6A /* my-base-gameUITests.xctest */;
+			productReference = 6CFC2EEB2890D992002A4A6A /* cookie-clicker-iosUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -234,7 +234,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6CFC2ECC2890D98F002A4A6A /* Build configuration list for PBXProject "my-base-game" */;
+			buildConfigurationList = 6CFC2ECC2890D98F002A4A6A /* Build configuration list for PBXProject "cookie-clicker-ios" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -247,9 +247,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6CFC2ED02890D98F002A4A6A /* my-base-game */,
-				6CFC2EE02890D991002A4A6A /* my-base-gameTests */,
-				6CFC2EEA2890D992002A4A6A /* my-base-gameUITests */,
+				6CFC2ED02890D98F002A4A6A /* cookie-clicker-ios */,
+				6CFC2EE02890D991002A4A6A /* cookie-clicker-iosTests */,
+				6CFC2EEA2890D992002A4A6A /* cookie-clicker-iosUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -289,7 +289,7 @@
 				6CFC2EFF2890DC4C002A4A6A /* ChildOneView.swift in Sources */,
 				6CFC2F0328914040002A4A6A /* ViewType.swift in Sources */,
 				6CFC2F012890EA95002A4A6A /* ChildTwoView.swift in Sources */,
-				6CFC2ED52890D98F002A4A6A /* my_base_gameApp.swift in Sources */,
+				6CFC2ED52890D98F002A4A6A /* cookie_clicker_iosApp.swift in Sources */,
 				6CFC2F082891468B002A4A6A /* DataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,7 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CFC2EE62890D991002A4A6A /* my_base_gameTests.swift in Sources */,
+				6CFC2EE62890D991002A4A6A /* cookie-clicker-iosTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,8 +306,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6CFC2EF02890D992002A4A6A /* my_base_gameUITests.swift in Sources */,
-				6CFC2EF22890D992002A4A6A /* my_base_gameUITestsLaunchTests.swift in Sources */,
+				6CFC2EF02890D992002A4A6A /* cookie_clicker_iosUITests.swift in Sources */,
+				6CFC2EF22890D992002A4A6A /* cookie_clicker_iosUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,12 +316,12 @@
 /* Begin PBXTargetDependency section */
 		6CFC2EE32890D991002A4A6A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6CFC2ED02890D98F002A4A6A /* my-base-game */;
+			target = 6CFC2ED02890D98F002A4A6A /* cookie-clicker-ios */;
 			targetProxy = 6CFC2EE22890D991002A4A6A /* PBXContainerItemProxy */;
 		};
 		6CFC2EED2890D992002A4A6A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6CFC2ED02890D98F002A4A6A /* my-base-game */;
+			target = 6CFC2ED02890D98F002A4A6A /* cookie-clicker-ios */;
 			targetProxy = 6CFC2EEC2890D992002A4A6A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -448,7 +448,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"my-base-game/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"cookie-clicker-ios/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -462,8 +462,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lighttech.my-base-game";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lighttech.cookie-clicker-ios";
+				PRODUCT_NAME = "cookie-clicker-ios";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -477,7 +477,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"my-base-game/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"cookie-clicker-ios/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -491,8 +491,8 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.lighttech.my-base-game";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lighttech.cookie-clicker-ios";
+				PRODUCT_NAME = "cookie-clicker-ios";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -514,7 +514,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/my-base-game.app/my-base-game";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cookie-clicker-ios.app/cookie-clicker-ios";
 			};
 			name = Debug;
 		};
@@ -533,7 +533,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/my-base-game.app/my-base-game";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cookie-clicker-ios.app/cookie-clicker-ios";
 			};
 			name = Release;
 		};
@@ -574,7 +574,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6CFC2ECC2890D98F002A4A6A /* Build configuration list for PBXProject "my-base-game" */ = {
+		6CFC2ECC2890D98F002A4A6A /* Build configuration list for PBXProject "cookie-clicker-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6CFC2EF32890D992002A4A6A /* Debug */,
@@ -583,7 +583,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6CFC2EF52890D992002A4A6A /* Build configuration list for PBXNativeTarget "my-base-game" */ = {
+		6CFC2EF52890D992002A4A6A /* Build configuration list for PBXNativeTarget "cookie-clicker-ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6CFC2EF62890D992002A4A6A /* Debug */,
@@ -592,7 +592,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6CFC2EF82890D992002A4A6A /* Build configuration list for PBXNativeTarget "my-base-gameTests" */ = {
+		6CFC2EF82890D992002A4A6A /* Build configuration list for PBXNativeTarget "cookie-clicker-iosTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6CFC2EF92890D992002A4A6A /* Debug */,
@@ -601,7 +601,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6CFC2EFB2890D992002A4A6A /* Build configuration list for PBXNativeTarget "my-base-gameUITests" */ = {
+		6CFC2EFB2890D992002A4A6A /* Build configuration list for PBXNativeTarget "cookie-clicker-iosUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6CFC2EFC2890D992002A4A6A /* Debug */,

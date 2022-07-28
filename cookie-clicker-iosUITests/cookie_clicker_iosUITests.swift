@@ -7,7 +7,7 @@
 
 import XCTest
 
-class my_base_gameUITests: XCTestCase {
+class cookie_clicker_iosUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
