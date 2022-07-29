@@ -11,28 +11,63 @@ struct GameView: View {
                 .ignoresSafeArea()
             
             VStack{
-                Text("Scene: \(viewName)")
-                    .padding()
+                HStack {
+                    Button() {
+                        actionSettings()
+                    } label: {
+                        Image(systemName: "gearshape.fill")
+                            .font(.system(size: 48))
+                            .foregroundColor(.black)
+                    }
+                    
+                    Spacer()
+                    HStack {
+                        Image(systemName: "bitcoinsign.circle")
+                            .font(.system(size: 48))
+                            .foregroundColor(.white)
+                            .cornerRadius(10)
+                        Text("\(dataModel.bitcoinCount)  ")
+                            .frame(width: 120, height: 60, alignment: .trailing)
+                            .font(.largeTitle)
+                            .foregroundColor(.white)
+                            .cornerRadius(20.0)
+                    }   .background(.blue)
+                        .cornerRadius(20.0)
+                }   .padding()
+                    
+                Spacer()
+
                 
                 Spacer()
+                Spacer()
                 
-                Button() {
-                    // Action
-                    dataModel.incrementSceneChanges(amount: 1)
+                HStack {
+                    Spacer()
                     
-                    withAnimation {
-                        dataModel.stateView = ViewType.SplashView
+                    Button() {
+                        actionCollect()
+                    } label: {
+                        Image(systemName: "bitcoinsign.circle.fill")
+                            .font(.system(size: 256))
+                            .foregroundColor(.yellow)
                     }
-                } label: {
-                    Text("Go to next View")
-                        .font(.largeTitle)
-                        .foregroundColor(.white)
-                        .padding()
-                        .background(Color.gray)
-                        .cornerRadius(20.0)
+                    
+                    Spacer()
                 }
+                
+                Spacer()
             }
         }.transition(.slide)
+    }
+    
+    private func actionSettings() {
+        withAnimation {
+            dataModel.stateView = ViewType.MenuView
+        }
+    }
+    
+    private func actionCollect() {
+        dataModel.collectBitCoin()
     }
 }
 

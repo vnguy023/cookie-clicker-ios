@@ -21,7 +21,7 @@ struct SplashView: View {
                         .foregroundColor(.yellow)
                     
                     // Logo Text
-                    Text("Cookie Clicker")
+                    Text("Bitcoin Clicker")
                         .font(Font.custom("baskerville-bold", size: 26))
                         .foregroundColor(.white)
                         .opacity(0.8)

@@ -11,7 +11,7 @@ struct MenuView: View {
                 .ignoresSafeArea()
             
             VStack {
-                Text("Cookie Clicker")
+                Text("Bitcoin Clicker")
                     .foregroundColor(.white)
                     .fontWeight(.bold)
                     .font(.largeTitle)
