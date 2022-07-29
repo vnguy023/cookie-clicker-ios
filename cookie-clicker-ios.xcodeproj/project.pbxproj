@@ -143,9 +143,9 @@
 		6CFC2F06289143B0002A4A6A /* ChildViews */ = {
 			isa = PBXGroup;
 			children = (
-				6CFC2F0D2892C632002A4A6A /* SplashView.swift */,
+				6CFC2F132893E2EE002A4A6A /* SplashView */,
 				6CFC2F0F28937454002A4A6A /* MenuView */,
-				6CFC2F002890EA95002A4A6A /* GameView.swift */,
+				6CFC2F122893E15D002A4A6A /* GameView */,
 			);
 			path = ChildViews;
 			sourceTree = "<group>";
@@ -164,6 +164,22 @@
 				6CFC2EFE2890DC4C002A4A6A /* MenuView.swift */,
 			);
 			path = MenuView;
+			sourceTree = "<group>";
+		};
+		6CFC2F122893E15D002A4A6A /* GameView */ = {
+			isa = PBXGroup;
+			children = (
+				6CFC2F002890EA95002A4A6A /* GameView.swift */,
+			);
+			path = GameView;
+			sourceTree = "<group>";
+		};
+		6CFC2F132893E2EE002A4A6A /* SplashView */ = {
+			isa = PBXGroup;
+			children = (
+				6CFC2F0D2892C632002A4A6A /* SplashView.swift */,
+			);
+			path = SplashView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
